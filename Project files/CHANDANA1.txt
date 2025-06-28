@@ -1,0 +1,27 @@
+pollen_classification/
+│
+├── data/                             # Dataset storage
+│   ├── raw/                          # Original images
+│   ├── processed/                    # Preprocessed images
+│   └── annotations/                 # Labels/metadata
+│
+├── notebooks/                        # Jupyter notebooks for experiments
+│   └── EDA.ipynb                     # Exploratory data analysis
+│
+├── src/                              # Source code
+│   ├── __init__.py
+│   ├── config.py                    # Configuration (paths, hyperparams)
+│   ├── data_loader.py               # Data loading and augmentation
+│   ├── preprocess.py                # Preprocessing utilities
+│   ├── model.py                     # Model architecture
+│   ├── train.py                     # Training logic
+│   ├── evaluate.py                  # Evaluation metrics
+│   └── predict.py                   # Inference script
+│
+├── models/                           # Saved models and checkpoints
+│
+├── outputs/                          # Logs, predictions, visualizations
+│
+├── requirements.txt                  # Python dependencies
+├── README.md                         # Project overview
+└── run.py                            # Main runner script
